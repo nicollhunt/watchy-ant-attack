@@ -130,8 +130,8 @@ void WatchyAntAttack::getRandomPosition(int &x, int &y)
     float t = random(100) / 100.0f;
     x = lerp(10, 190, t);
 
-    int minY = lerp(20, 120, t);
-    y = 190 - random(minY);
+    int minY = lerp(10, 110, t);
+    y = 180 - random(minY);
 }
 
 
